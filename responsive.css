@@ -1,0 +1,643 @@
+@media (min-width:1400px){
+    .left-benner h1 span::before {
+        position: absolute;
+        content: "";
+        background-image: url(../img/Frame.png);
+        height: 63%;
+        width: 100%;
+        background-repeat: no-repeat;
+        bottom: -6px;
+        left: 184px;
+        background-size: 401px;
+    }
+}
+@media (max-width:1400px) {
+    .wreppar {
+        max-width: 1170px;
+    }
+
+    .left-benner h1 {
+        font-size: 85px;
+        padding-right: 67px;
+    }
+
+    .left-benner p {
+        padding-right: 60px;
+    }
+
+    .right-benner {
+        width: 50%;
+        z-index: 2;
+        margin-top: 15px;
+    }
+
+    .right-benner img {
+        margin-bottom: -91px;
+    }
+
+    .text-right h1 {
+        font-size: 44px;
+    }
+
+    .text-right p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1200px) {
+    .wreppar {
+        max-width: 1140px;
+    }
+    
+
+    .left-benner h1 {
+        padding-right: 140px;
+        font-size: 75px;
+    }
+
+    .left-benner p {
+        padding-right: 145px;
+        margin-top: 20px;
+    }
+
+    .right-benner {
+        width: 50%;
+        z-index: 2;
+        margin-top: 53px;
+        /* margin-bottom: -96px; */
+    }
+
+    .left-benner h1 span::before {
+        height: 60%;
+        width: 81%;
+        bottom: -51px;
+        left: -39px;
+        background-size: 359px;
+    }
+
+    .text-right h3 {
+        font-size: 33px;
+        padding: 1px 0;
+    }
+
+    .text-right h1 {
+        font-size: 43px;
+        padding: 8px 0;
+    }
+
+    .right-benner img {
+        width: 90%;
+        margin-left: 57px;
+        margin-bottom: -139px;
+    }
+
+    .text-right p {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    .group1 {
+        display: flex;
+        margin-right: 20px;
+        padding: 14px 0;
+    }
+
+    .but2 button {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .sing {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width:992px) {
+    .wreppar {
+        max-width: 960px;
+    }
+
+    .left-benner h1 {
+        padding-right: 85px;
+        font-size: 65px;
+    }
+
+    .left-benner h1 span::before {
+        height: 60%;
+        width: 81%;
+        bottom: -40px;
+        background-size: 318px;
+        left: -19px;
+    }
+
+    .info {
+        margin-top: 40px;
+    }
+
+    .right-benner img {
+        margin-left: 48px;
+    }
+    
+    .benner-contant {
+        display: flex;
+        padding: 0px 0;
+        width: 100%;
+    }   
+    .sec1 {
+        padding: 75px 0;
+    }
+    .right-benner img {
+        width: 90%;
+        margin-left: 57px;
+        margin-bottom: -48px;
+    }
+
+    .right-benner {
+        width: 50%;
+        z-index: 2;
+        margin-top: 100px;
+    }
+
+    .text-right h3 {
+        font-size: 30px;
+    }
+
+    .text-right h1 {
+        font-size: 36px;
+        padding: 4px 0;
+    }
+
+    .text-right p {
+        font-size: 13px;
+    }
+
+    .group1 h4 {
+        font-size: 15px;
+    }
+
+    .group1 {
+        padding: 12px 0;
+    }
+
+    .but2 button {
+        font-size: 16px;
+        margin: 0px 0;
+    }
+
+    .smoll-img {
+        width: 42%;
+        top: 121px;
+        left: 65%;
+    }
+}
+
+@media (max-width:897px) {
+    .right-benner img {
+        margin-left: 43px;
+    }
+
+    .group1 i {
+        font-size: 20px;
+        color: #E3B576;
+        padding: 0 10px;
+    }
+
+    .group1 h4 {
+        font-size: 13px;
+    }
+
+    .text-right h1 {
+        font-size: 33px;
+        padding: 4px 0;
+    }
+
+    .text-right p {
+        font-size: 12px;
+    }
+
+    .sing img {
+        height: 100%;
+        width: 85%;
+    }
+
+    .but2 button {
+        font-size: 13px;
+        padding: 15px 14px;
+    }
+}
+
+@media (max-width:768px) {
+
+    /* body{overflow-x: hidden;} */
+    .wreppar {
+        max-width: 720px;
+    }
+
+    header {
+        overflow-x: hidden;
+    }
+
+    .headmain ul li {
+        display: block;
+        font-size: 14px;
+        padding: 15px 11px;
+    }
+    .headmain{align-items: center;}
+    
+
+    .nav-manu {
+        order: 3;
+        position: absolute;
+        right: -100px;
+        overflow-x: hidden;
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+    .togal i {
+        color: #E3B576;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    .togal {
+        display: block;
+        z-index: 999;
+    }
+
+
+    .mobile-manu {
+        order: 3;
+        position: absolute;
+        width: 60%;
+        right: 0;
+        /* overflow-x: hidden; */
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        background-color: #323232;
+        color: #E3B576;
+        z-index: 9;
+        top: 20px;
+    }
+
+    .post {
+        display: none
+    }
+
+    .logo {
+        width: 20%;
+        padding: 10px 0;
+    }
+
+    .right-benner {
+        width: 50%;
+        z-index: 2;
+        margin-top: 169px;
+    }
+    .right-benner img
+{margin-bottom: 0;}
+
+    /*     
+    .checkbtn{
+        display: block;
+        float: right;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:#ffff;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        transition: all .5s ;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    } */
+    .left-benner p {
+        padding-right: 30px;
+        font-size: 13px;
+    }
+
+    .left-benner h1 {
+        padding-right: 30px;
+        font-size: 55px;
+    }
+
+    .left-benner h1 span::before {
+        height: 60%;
+        width: 81%;
+        bottom: -38px;
+        background-size: 256px;
+        left: -21px;
+    }
+    .benner-contant {
+        display: flex;
+        padding: 0px 0;
+        width: 100%;
+    }   
+    .sec1 {
+        padding: 75px 0;
+    }
+
+    button {
+        padding: 16px 10px;
+        font-size: 14px;
+    }
+
+    .contect i {
+        font-size: 25px;
+    }
+
+    .text-right p {
+        font-size: 12px;
+    }
+
+    .left-benner h6 {
+        font-size: 13px;
+    }
+    .text-right h3 {
+        font-size: 25px;
+    }
+
+    .text-right h1 {
+        font-size: 28px;
+        padding: 4px 0;
+    }
+
+    .group1 i {
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+
+    .group1 h4 {
+        font-size: 13px;
+    }
+
+    .group1 {
+        margin-right: 0;
+    }
+
+    .sing {
+        margin: 0 10px;
+        width: 60%;
+    }
+
+    .but2 button {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:695px) {
+    .right-benner img {
+        margin-left: 33px;
+    }
+
+    .text-right h1 {
+        font-size: 26px;
+        padding: 4px 0;
+    }
+
+    .text-right p {
+        font-size: 11px;
+    }
+
+    .group1 i {
+        font-size: 15px;
+        padding: 0px 4px;
+    }
+    
+}
+
+@media (max-width:667px) {
+    .right-benner {
+        width: 50%;
+        z-index: 2;
+        margin-top: 202px;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .wreppar {
+        max-width: 540px;
+    }
+
+    .banner-post {
+        display: block;
+    }
+
+    .left-benner {
+        width: 100%;
+    }
+
+    .left-benner h1 {
+        padding-right: 100px;
+        font-size: 50px;
+    }
+    .left-benner h1 span::before {
+        height: 66%;
+        width: 81%;
+        bottom: -2px;
+        background-size: 250px;
+        left: -17px;
+    }
+    .img-left img {
+        width: 85%;
+    }
+
+    .left-benner p {
+        padding-right: 160px;
+        font-size: 12px;
+    }
+
+    .right-benner {
+        width: 100%;
+    }
+
+    .right-benner {
+        margin-top: 35px;
+    }
+
+    .sec1 {
+        display: block;
+        padding: 60px 0;
+    }
+
+    .sec1 .img-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .smoll-img {
+        width: 42%;
+        top: 143px;
+        left: 58%;
+    }
+
+    .text-right {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .sing {
+        margin: 0 10px;
+        width: 55%;
+    }
+    .but2 button {
+        font-size: 14px;
+    }
+    .benner-contant {
+        padding: 0 0;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:482px) {
+    .left-benner h1 {
+        /* padding-right: 190px; */
+        font-size: 48px;
+    }
+
+    .left-benner h1 span::before {
+        height: 69%;
+        width: 81%;
+        bottom: -6px;
+        background-size: 246px;
+        left: 99px;
+    }
+}
+
+@media (max-width:424px) {
+    .left-benner h1 {
+        padding-right: 0px;
+        font-size: 48px;
+    }
+    .left-benner h1 span::before {
+        height: 69%;
+        width: 81%;
+        bottom: -6px;
+        background-size: 246px;
+        left: -15px;
+    }
+
+    .right-benner img {
+        margin-left: 41px;
+    }
+
+    .smoll-img {
+        width: 42%;
+        top: 143px;
+        left: 58%;
+    }
+}
+
+@media (max-width:376px) {
+    .logo {
+        width: 30%;
+        padding: 10px 0;
+    }
+
+    .post {
+        width: 30%;
+    }
+
+    .banner-post {
+        display: block;
+    }
+    .left-benner h1 span::before {
+        height: 69%;
+        width: 81%;
+        bottom: -6px;
+        background-size: 246px;
+        left: 99px;
+    }
+
+    .left-benner {
+        width: 100%;
+    }
+
+    .benner-contant {
+        display: flex;
+        padding: 55px 0;
+        width: 100%;
+    }
+
+    .left-benner p span {
+        color: #E3B576;
+        font-size: 16px;
+    }
+
+    /* .left-benner h1 {
+        padding-right: 106px;
+        font-size: 44px;
+    } */
+
+    .left-benner p {
+        padding-right: 30px;
+        font-size: 11px;
+    }
+    .left-benner h1 {
+        padding-right: 0px;
+        font-size: 50px;
+    }
+
+    /* .left-benner h1 span::before {
+        width: 81%;
+        bottom: -24px;
+        background-size: 249px;
+        left: -21px;
+    } */
+
+    .right-benner {
+        width: 100%;
+    }
+
+    .right-benner img {
+        margin-left: 31px;
+    }
+
+    .sec1 {
+        display: block;
+    }
+
+    .sec1 .img-left {
+        width: 100%;
+    }
+
+    .smoll-img {
+        width: 42%;
+        top: 98px;
+        left: 58%;
+    }
+
+    .text-right {
+        width: 100%;
+    }
+
+    .text-right h3 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .text-right h1 {
+        font-size: 26px;
+        padding: 4px 0;
+    }
+
+    .text-right p {
+        font-size: 11px;
+    }
+
+    .but2 {
+        width: 50%;
+    }
+
+    .sing {
+        width: 50%;
+    }
+}
